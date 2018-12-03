@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*#------------------------------共用样式 {}*/
+html {
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+body{
+	background-repeat: no-repeat;
+	background-position:center top;
+	background-attachment: scroll;
+	font-size: 12px;
+	font-family:"微软雅黑", Tahoma, Georgia, Arial;
+	background-color: #ffffff;
+	margin:0px;
+	overflow-x: hidden;
+	min-width: 300px;
+	max-width: 1920px;
+	margin: auto;
+ 
+}
+
+
+div , ul , li , p       {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display: block;
+}
+table {
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+}
+
+img { border:0px;}
+a{ color:#000;}
+a:focus {
+    outline:none;
+}
+a:link {
+	text-decoration: none;
+	blr:expression(this.onFocus=this.blur())
+}
+a:visited {
+	text-decoration: none;  
+	blr:expression(this.onFocus=this.blur())
+}
+a:hover {
+	text-decoration: none;
+
+	blr:expression(this.onFocus=this.blur())
+}
+a:active {
+	text-decoration: none;
+	blr:expression(this.onFocus=this.blur())
+}
+
+
+
+
+@media all and (max-width: 767px) {
+	.lx_xs_hiden{
+		display: none;
+	}
+}
+@media all and (min-width: 767px) {
+	.lx_xs_block{
+		display: none;
+	}
+}
