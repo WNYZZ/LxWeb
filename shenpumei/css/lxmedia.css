@@ -1,0 +1,139 @@
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 370px){
+    .lxtop_main{
+        min-width: 320px;
+        background-color: #FFFFFF;
+    }
+    .top_logo{
+        padding-top: 2%!important;
+        width: 220px;
+    }
+
+}
+@media all and (max-width: 767px) {
+    .lxtop{
+        max-width: 555px;
+    }
+    .top_logo img{
+        max-width: 80%;
+    }
+    .lxtop{
+        background-color: #FFFFFF;
+    }
+    .navbar-toggle{
+
+    }
+    .navbar-nav{
+        background-color: #FFFFFF!important;
+    }
+    .navbar-toggle .icon-bar+.icon-bar{
+        color: #000000;
+        background-color: #000000;
+    }
+    .navbar-toggle .icon-bar{
+        color: #000000;
+        background-color: #000000;
+    }
+    .container>.navbar-collapse{
+        width: 100%;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .lxtop .nav{
+        padding-top: 0;
+        padding-left: 0;
+        background-color: #FFFFFF!important;
+        z-index: 9999;
+    }
+    .lxtop ul.nav{
+        display: block;
+        width: 100%;
+        background-color: #FFFFFF!important;
+        margin-right: 0;
+        padding-right: 0;
+        padding-top: 0!important;
+    }
+    .lxtop_main{
+        padding-right: 0;
+    }
+    .lxtop .nav a{
+        color: #000000!important;
+    }
+    .lxtop .nav li{
+        padding-left: 4%;
+        border-bottom:1px solid #3d3d3d;
+        background-color: #FFFFFF;
+        min-width: 100%;
+    }
+    .index_brand{
+        display: none;
+    }
+    .index_sketch .title{
+        font-size: 36px;
+    }
+    .index_sketch .contnet{
+        max-width: 96%;
+    }
+    .index_about .title{
+        padding-top: 8%;
+    }
+    .index_new .title,.index_new .en_title{
+        padding-left: 4%;
+    }
+    .index_about .contnet{
+        padding-top: 6%;
+        max-width: 90%;
+    }
+    .index_contact .contact_left_gup{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+@media all and (max-width: 991px) {
+
+
+    .lxtop .nav{
+        padding-left: 0;
+        float: right;
+    }
+    .index_brand{
+        height: 60px;
+    }
+
+    .index_new .col-md-6:nth-of-type(even){
+        padding-bottom: 2%!important;
+    }
+}
+
+
+
+@media all and (max-width: 1199px) {
+    .index_brand{
+        height: 80px;
+    }
+
+    .index_new .more{
+        margin-top: 0;
+        margin-bottom: 3.0%;
+    }
+
+}
+@media all and (min-width: 1200px){
+    .index_new .col-md-6:nth-of-type(even){
+        padding-bottom: 22px;
+    }
+}

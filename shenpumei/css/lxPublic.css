@@ -1,5 +1,5 @@
 @charset "utf-8";
-#------------------------------共用样式 {}
+/*#------------------------------共用样式 {}*/
 html {
     overflow-x:hidden;
     overflow-y:scroll;
@@ -13,16 +13,16 @@ body{
     font-family:"微软雅黑", Tahoma, Georgia, Arial;
     background-color: #ffffff;
     margin:0px;
-
 }
 
 
-div , ul , li , p       {
+div , ul , li , p {
     margin:0px;
     padding:0px;
     list-style:none;
     display: block;
 }
+
 table {
     border:0;
     cellpadding:0;
@@ -50,24 +50,45 @@ a:hover {
 a:active {
     text-decoration: none;
     blr:expression(this.onFocus=this.blur())
-
 }
 
 
+.lxclearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.lxclearfloat{zoom:1}
 
 
-.lx_dis_none{
-    display: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+    body,html {
+        max-width: 555px;
+        min-width: 310px;
+        overflow-x: hidden;
+        margin: auto;
+    }
 }
-.lxclear{
-    clear: both;
+
+@media all and (min-width: 1921px){
+    body,html {
+        max-width: 1920px;
+        margin: auto;
+    }
 }
-
-.lxil-block{
-    display: inline-block;
-}
-
-
-
-
-
