@@ -17,6 +17,10 @@ color: #333333;
     float: right;
     padding-top: 5px;
 }
+
+.navbar-nav li:hover ul.dropdown-menu{
+    display: block;
+}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
     background: none;
 
@@ -345,6 +349,11 @@ color: #333333;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     cursor: pointer;
+    transition: 1s all cubic-bezier(1,1,0.19,1);
+}
+.lxindex_about .about_right .more:hover{
+    background-color: #FFFFFF;
+    color: #009cff;
 }
 /*--------------------------------------------------------------------------------------------------------------------/
 
@@ -431,8 +440,13 @@ color: #333333;
     color: #c1c1c1;
     border: 1px solid #aaaaaa;
     cursor: pointer;
+    transition: 1s all cubic-bezier(1,1, 0.19,1);
 }
-
+.lxindex_list_news .more:hover{
+    border: 1px solid #009cff;
+    color: #FFFFFF;
+    background: #009cff;
+}
 .news_one div[class=col-md-5]{
     padding-right: 0;
 }
@@ -575,6 +589,9 @@ color: #333333;
 
 }
 
+.lxfoot span:first-child{
+    margin-left: 0;
+}
 
 .lxfoot_right{
     position: relative;

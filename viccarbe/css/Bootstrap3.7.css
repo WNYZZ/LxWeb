@@ -529,10 +529,10 @@ th {
     content: "\e078";
 }
 .glyphicon-chevron-left:before {
-    content: "\e079";
+    /*content: "\e079";*/
 }
 .glyphicon-chevron-right:before {
-    content: "\e080";
+    /*content: "\e080";*/
 }
 .glyphicon-plus-sign:before {
     content: "\e081";
@@ -4198,12 +4198,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .navbar-collapse.collapse {
-        display: block !important;
-        height: auto !important;
-        padding-bottom: 0;
-        overflow: visible !important;
-    }
+
     .navbar-collapse.in {
         overflow-y: visible;
     }
